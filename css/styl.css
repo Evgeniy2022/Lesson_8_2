@@ -1,0 +1,113 @@
+
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Quintessential&display=swap');
+/*  font-family: 'Lato', sans-serif;*/
+
+.wrapper{
+	overflow: hidden;	
+}
+body{
+	max-width: 810px;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	color: #424551;
+	margin: 0 auto;
+	font-weight: normal;
+	line-height: 1.6;
+}
+
+h1{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	color: #1E212C;
+	margin-bottom: 26px;
+	background-color: bisque;
+	text-shadow: 2px 0 1px rgb(236, 220, 220);
+}
+.content__center-link {
+	color: rgb(14, 235, 106);
+	text-shadow: 1px 0 1px #000;
+	padding: 15px 32px;
+	border-radius: 20px;
+	background-color: blue;
+	display: inline-block;
+}
+.content__center-link:hover{
+	background-color: rgb(17, 228, 217);
+}
+.content__center-link:active{
+	background-color: rgb(17, 228, 70);
+}
+
+.content__center-text-1 {
+	font-size: 20px;
+	color: rgba(0, 0, 0, 0.658);
+}
+.content__center-text-1 p:first-child{
+	background-color: rgba(206, 20, 20, 0.226);
+}
+.content__center-text-1 p:last-child{
+	background-color: rgba(141, 206, 20, 0.226);
+}
+.content__center-text-1 p:nth-child(2){
+	background-color: rgba(20, 107, 206, 0.226);
+}
+.content__center-text-1 p:hover{
+	background-color: rgba(255, 255, 255, 0);
+	color: rgba(0, 0, 0, 0);
+}
+
+.content__center-text-2 {
+	font-size: 22px;
+	color: rgba(87, 31, 31, 0.658);
+}
+.content__center-text-2 *:first-of-type{
+	background-color: rgba(102, 6, 6, 0.315);
+}
+.content__center-text-2 *:last-of-type{
+	background-color: rgba(240, 89, 20, 0.315);
+}
+.content__center-text-2 p:nth-child(2){
+	color: blueviolet;
+}
+.content__center-text-3 {
+	color: rgb(43, 255, 0);
+	background-color: rgb(160, 156, 156);
+}
+.content__center-text-3 *:nth-child(2n){
+	color: aqua;
+	background-color: rgba(255, 255, 255, 0.507);
+	text-shadow: 0 1px 2px #000;
+}
+.content__center-text-3 *:nth-child(2n)::first-letter{
+	color: red;
+}
+.content__center-text-3 p:nth-child(odd)::first-line{
+	color: rgb(4, 29, 248);
+}
+
+.content__center-text-4 {
+	color: rgb(255, 0, 0);
+	font-size: 25px;
+	padding-left: 20px;
+}
+.content__center-text-4 p::before{
+	content: "";
+	display: inline-block;
+	width: 50px;
+	height: 25px;
+	background: url("../img/cos.jpg") 0 0 / 50px 25px no-repeat;
+}
+.content__center-text-4 p::after{
+	content: "";
+	display: inline-block;
+	width: 50px;
+	height: 25px;
+	background: url("../img/cos.jpg") 0 0 / 50px 25px no-repeat;
+}
+.bottom{
+	color: rgb(23, 20, 175);
+}
